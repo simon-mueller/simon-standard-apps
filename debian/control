@@ -10,3 +10,9 @@ Depends: ${misc:Depends},
  vim, kate, firefox, thunderbird, openssh-server, htop, nmon, indicator-multiload, indicator-weather, mplayer, pidgin,
  speedcrunch
 Description: Apps that I regularily use.
+
+Package: simon-cedarview
+Architecture: all
+Depends: ${misc:Depends},
+ linux-image-generic (<<3.3), xserver-xorg-lts-precise, cedarview-graphics-drivers, libva-cedarview-vaapi-driver, cedarview-drm
+Description: Metapackage for Cedarview.
