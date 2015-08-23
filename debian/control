@@ -1,0 +1,12 @@
+Source: simon-standard-apps
+Section: misc
+Priority: extra
+Maintainer: Simon Mueller <launchpad@simon-mueller.de>
+Build-Depends: debhelper (>=8)
+
+Package: simon-standard-apps
+Architecture: all
+Depends: ${misc:Depends},
+ vim, kate, firefox, thunderbird, openssh-server, htop, nmon, indicator-multiload, indicator-weather, mplayer, pidgin,
+ speedcrunch
+Description: Apps that I regularily use.
