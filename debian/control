@@ -6,13 +6,43 @@ Build-Depends: debhelper (>=8)
 
 Package: simon-standard-apps
 Architecture: all
-Depends: ${misc:Depends},
- vim, kate, firefox, thunderbird, openssh-server, htop, nmon, indicator-multiload, indicator-weather, mplayer, pidgin,
- speedcrunch
+Depends: baobab,
+         bmon,
+         build-essential,
+         byobu,
+         cmake,
+         devscripts,
+         equivs,
+         firefox,
+         git,
+         gparted,
+         htop,
+         indicator-multiload,
+         indicator-weather,
+         kate,
+         kile,
+         lshw-gtk,
+         mplayer,
+         mutt,
+         nmon,
+         openssh-server,
+         pidgin,
+         rdesktop,
+         speedcrunch,
+         texlive-full,
+         thunderbird,
+         vim,
+         x11vnc,
+         xvnc4viewer, rsync, whois, ubuntu-restricted-extras, zram-config
+         ${misc:Depends}
 Description: Apps that I regularily use.
 
 Package: simon-cedarview
 Architecture: all
-Depends: ${misc:Depends},
- linux-image-generic (<<3.3), xserver-xorg-lts-precise, cedarview-graphics-drivers, libva-cedarview-vaapi-driver, cedarview-drm
+Depends: cedarview-drm,
+         cedarview-graphics-drivers,
+         libva-cedarview-vaapi-driver,
+         linux-image-generic (<<3.3),
+         xserver-xorg-lts-precise,
+         ${misc:Depends}
 Description: Metapackage for Cedarview.
