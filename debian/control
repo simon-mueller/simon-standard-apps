@@ -33,7 +33,7 @@ Depends: baobab,
          thunderbird,
          vim,
          x11vnc,
-         xvnc4viewer, rsync, whois, ubuntu-restricted-extras, zram-config
+         xvnc4viewer, rsync, whois, ubuntu-restricted-extras, zram-config, konsole, 
          ${misc:Depends}
 Description: Apps that I regularily use.
 
